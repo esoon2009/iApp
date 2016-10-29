@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.user.iapp.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colourBlindTest"
+        android:text="@string/colourBlindTest"
+        android:onClick="onClick_goToColourBlindTest"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visionTest"
+        android:text="@string/visionTest"
+        android:onClick="onClick_goToVisionTest"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/perspectiveColourBlindTest"
+        android:text="@string/perspectiveColourBlindTest"
+        android:onClick="onClick_goToPerspectiveColourBlindTest"/>
+
+
+</LinearLayout>

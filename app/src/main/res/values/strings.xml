@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">iApp</string>
+    <string name="colourBlindTest">Colour Blind Test</string>
+    <string name="visionTest">Vision Test</string>
+    <string name="perspectiveColourBlindTest">Perspective Colour Blind Test</string>
+    <string name="colourBlindTestDescription">Okay! </string>
+    <string name="enterNumber">Enter Number</string>
+    <string name="goToColourBlindTest2">Go To Test 2</string>
+    <string name="goToColourBlindTest3">Go To Test 3</string>
+    <string name="goToColourBlindTestResult">See your Result!</string>
+    <string name="failedColourBlindTest">Click Here to find your nearest Optometrist!</string>
+    <string name="passedColourBlindTest">Click Here to go back to the main page!</string>
+</resources>
