@@ -4,25 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.iapp.ColourBlindTest3">
+    tools:context="com.example.user.iapp.VisionTestDescription2">
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src ="@drawable/number42"/>
-
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editTextTest3"
-        android:hint="@string/enterNumber"/>
+        android:text="Please hold the phone at arms length and directly in front of your eyes. Cover your right eye"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/goToColourBlindTest4"
-        android:text="@string/goToTest4"
-        android:onClick="onClick_goToColourBlindTest4"/>
+        android:text="Okay!"
+        android:onClick="onClick_goToVisionTest6"/>
 
-</LinearLayout>
+
+    </LinearLayout>

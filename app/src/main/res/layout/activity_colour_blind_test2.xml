@@ -21,6 +21,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/goToColourBlindTest3"
-        android:text="@string/goToColourBlindTest3"
+        android:text="@string/goToTest3"
         android:onClick="onClick_goToColourBlindTest3"/>
 </LinearLayout>

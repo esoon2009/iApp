@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.iapp.ColourBlindTestPassed">
+    tools:context="com.example.user.iapp.VisionTestPassed">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/passedColourBlindTest"
-        android:text="@string/passedColourBlindTest"
+        android:id="@+id/passedVisionTest"
+        android:text="@string/passedVisionTest"
         android:onClick="onClick_goToHome"
         />
 

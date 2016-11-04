@@ -1,32 +1,25 @@
 package com.example.user.iapp;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class VisionTestDescription extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_vision_test_description);
     }
 
     protected void onClick_goToVisionTest(View view){
         Intent myIntent = new Intent(this,VisionTestDescription.class);
         startActivity(myIntent);
-
     }
 
-    protected void onClick_goToColourBlindTest(View view){
-        Intent myIntent = new Intent(this,ColourBlindTestDescription.class);
-        startActivity(myIntent);
-
-    }
-
-    protected void onClick_goToPerspectiveColourBlindTest(View view){
-        Intent myIntent = new Intent(this,PerspectiveColourBlindTest.class);
+    protected void onClick_goToVisionTest1(View view){
+        Intent myIntent = new Intent(this,VisionTest1.class);
         startActivity(myIntent);
 
     }

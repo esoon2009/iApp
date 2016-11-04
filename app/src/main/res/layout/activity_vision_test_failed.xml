@@ -4,25 +4,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.iapp.ColourBlindTest3">
+    tools:context="com.example.user.iapp.VisionTestFailed">
 
-    <ImageView
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src ="@drawable/number42"/>
+        android:id="@+id/visionResult"
+        android:text="Risk of having impaired Vision.Please click the button below to find your nearest Optometrist!"/>
 
-
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextTest3"
-        android:hint="@string/enterNumber"/>
+
+        android:text="Risk of having impaired Vision.Please click the button below to find your nearest Optometrist!"/>
+
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/goToColourBlindTest4"
-        android:text="@string/goToTest4"
-        android:onClick="onClick_goToColourBlindTest4"/>
-
+        android:id="@+id/failedVisionTest"
+        android:onClick="onClick_goToFindNearestOptometrist"
+        android:text="@string/failedVisionTest"
+        />
 </LinearLayout>

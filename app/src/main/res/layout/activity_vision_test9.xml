@@ -4,25 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.user.iapp.ColourBlindTest3">
+    tools:context="com.example.user.iapp.VisionTest9">
 
-    <ImageView
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src ="@drawable/number42"/>
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:text="@string/VisionTest9_S"
+        />
 
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editTextTest3"
-        android:hint="@string/enterNumber"/>
+        android:id="@+id/editVisionTextTest9"
+        android:hint="@string/enterLetter"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/goToColourBlindTest4"
-        android:text="@string/goToTest4"
-        android:onClick="onClick_goToColourBlindTest4"/>
-
+        android:id="@+id/goToVisionTest10"
+        android:text="@string/goToTest10"
+        android:onClick="onClick_goToVisionTest10"/>
 </LinearLayout>
