@@ -8,6 +8,11 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -38,7 +43,6 @@
         <activity android:name=".VisionTest3" />
         <activity android:name=".VisionTestResult" />
         <activity android:name=".VisionTest4" />
-        <activity android:name=".VisionActivity5" />
         <activity android:name=".VisionTest5" />
         <activity android:name=".VisionTestFailed" />
         <activity android:name=".VisionTestPassed" />
@@ -67,7 +71,12 @@
         <activity android:name=".VisionTest8" />
         <activity android:name=".VisionTest9" />
         <activity android:name=".VisionTest10" />
-        <activity android:name=".VisionTestDescription2"></activity>
+        <activity android:name=".VisionTestDescription2" />
+        <receiver android:name=".MyBroadcastReceiver"/>
+        <receiver android:name=".MyBattery"/>
+
+
+
     </application>
 
 </manifest>

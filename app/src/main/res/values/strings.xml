@@ -36,6 +36,13 @@
     <string name="VisionTest10_F">F</string>
     <string name="title_activity_nearest_optometrist">Map</string>
     <string name="yourResult">Your Result is:</string>
+    <string name="title_activity_my_location">Map</string>
+    <string name="goToBattery">Click here to see if you have enough Battery to make it to the Optometrist!</string>
+    <string name="myBattery">My Battery</string>
+    <string name="battery_level">Battery level:</string>
+
+
+
 
 
 </resources>

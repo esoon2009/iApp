@@ -1,7 +1,9 @@
 package com.example.user.iapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.TextView;
 
 public class VisionTestResult extends AppCompatActivity {
@@ -30,6 +32,8 @@ public class VisionTestResult extends AppCompatActivity {
         TextView resultTextView = (TextView)findViewById(R.id.visionResult);
         resultTextView.setText(String.valueOf(result));
 
+
+
         /*if (result < 10) {
             //Toast.makeText(this, "See your nearest optometrist " + enterNumber1 + " " + enterNumber2 + " "+ enterNumber3+" " + enterNumber4 + " " + enterNumber5 , Toast.LENGTH_LONG).show();
             Intent myIntent = new Intent(this,VisionTestFailed.class);
@@ -45,6 +49,14 @@ public class VisionTestResult extends AppCompatActivity {
 
 
     }
+    protected void onClick_goToFindNearestOptometrist(View view) {
+        Intent myIntent = new Intent(this, NearestOptometrist.class);
+        startActivity(myIntent);
+
+
+    }
+
+
 
 
 
